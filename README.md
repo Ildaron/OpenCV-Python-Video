@@ -6,3 +6,4 @@
 5. Region Of Interest (ROI) by OpenCV and Python
 6. Сamera recording, OpenCV, Python  
 7. Multi object tracking, cv2.MultiTracker_create(), OpenCV, Python
+8. Save photo from video, OpenCV, Python  
