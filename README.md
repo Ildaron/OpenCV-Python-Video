@@ -4,5 +4,5 @@
 3. Object tracking  in the video stream by OpenCV, Python (v2.TrackerCSRT_create, cv2.TrackerKCF_create, cv2.TrackerBoosting_create, cv2.TrackerTLD_create, cv2.TrackerMedianFlow_create, cv2.TrackerMOSSE_create)
 4. Find the object with the yellow color and track him. Track only one the yellow object with the big size
 5. Region Of Interest (ROI) by OpenCV and Python
-6. Сamera recording, OpenCV, Python
-7ю Multi object tracking, cv2.MultiTracker_create(), OpenCV, Python
+6. Сamera recording, OpenCV, Python  
+7. Multi object tracking, cv2.MultiTracker_create(), OpenCV, Python
