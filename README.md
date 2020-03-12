@@ -5,3 +5,4 @@
 4. Find the object with the yellow color and track him. Track only one the yellow object with the big size
 5. Region Of Interest (ROI) by OpenCV and Python
 6. Сamera recording, OpenCV, Python
+7ю Multi object tracking, cv2.MultiTracker_create(), OpenCV, Python
