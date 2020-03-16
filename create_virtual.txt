@@ -1,0 +1,3 @@
+create a folder and the next command
+- python3 -m venv tutorial-env
+- tutorial-env\Scripts\activate.bat
