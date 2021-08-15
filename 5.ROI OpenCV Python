@@ -2,16 +2,20 @@ import cv2
 camera = cv2.VideoCapture(0)
 
 (grabbed, frame) = camera.read()
-bbox = cv2.selectROI(frame, False)
-print (bbox)
-box_up = (int (bbox[0]), int(bbox[1]))
-box_low = (int (bbox[2]), int (bbox[3]))
-print (box_up)
-print (box_low)
+rect = cv2.selectROI(frame, False)
+
+x1=rect[0]
+y1=rect[1]
+x2=rect[2]
+y2=rect[3]
+
+
+
+     
 while True:
  (grabbed, frame) = camera.read()
- 
- boxc = cv2.rectangle(frame, box_up, box_low, (36, 120, 10), 2)
+ boxc=frame[y1:y1+y2,x1:x1+x2]
+ #boxc = cv2.rectangle(frame, box_up, box_low, (136, 120, 10), 2)
  cv2.imshow("frame", boxc)
  key = cv2.waitKey(1) & 0xFF
  if key == ord("q"):
